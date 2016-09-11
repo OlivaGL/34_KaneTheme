@@ -1,0 +1,26 @@
+.backverde{
+	background-color: #26AD5F;
+	padding: 2em;
+}
+.backpaisaje{
+	background-image: url(../img/carousel-bg.jpg);
+	height: 500px;
+}
+.txbco{
+	color: white
+}
+#back1{
+	background-color: #69D2E7;
+}
+#back2{
+	background-color: #A7DBDB;
+}
+#back3{
+	background-color: #E0E4CC;
+}
+#back4{
+	background-color: #F38630;
+}
+#back5{
+	background-color: #FA6900;
+}
