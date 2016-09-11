@@ -1,10 +1,15 @@
 .backverde{
 	background-color: #26AD5F;
-	padding: 2em;
 }
 .backpaisaje{
 	background-image: url(../img/carousel-bg.jpg);
 	height: 500px;
+}
+h1{
+	font-size: 5em;
+}
+.pheader{
+	font-size: 2em;
 }
 .txbco{
 	color: white
@@ -23,4 +28,10 @@
 }
 #back5{
 	background-color: #FA6900;
+}
+.pd-5{
+	padding: 5%;
+}
+.pd-2{
+	padding: 2%;
 }
