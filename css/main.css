@@ -8,11 +8,17 @@
 h1{
 	font-size: 5em;
 }
+h2{
+	font-size: 4em;
+}
 .pheader{
 	font-size: 2em;
 }
 .txbco{
-	color: white
+	color: white;
+}
+.alto{
+	height: 10em;
 }
 #back1{
 	background-color: #69D2E7;
@@ -29,9 +35,29 @@ h1{
 #back5{
 	background-color: #FA6900;
 }
+hr{
+	border-top: solid gray;
+	border-bottom: solid black;
+	width: 25%;
+}
+
+
+
 .pd-5{
 	padding: 5%;
 }
 .pd-2{
 	padding: 2%;
+}
+.pd-left{
+	padding-left: 9%;
+}
+.pd-right{
+	padding-right: 9%;
+}
+.m-bot-5{
+	margin-bottom: 5%;
+}
+.m-top-5{
+	margin-top: 5%;
 }
