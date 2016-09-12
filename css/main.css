@@ -1,9 +1,10 @@
 .backverde{
 	background-color: #26AD5F;
+	height: auto;
 }
 .backpaisaje{
 	background-image: url(../img/carousel-bg.jpg);
-	height: 500px;
+	height: auto;
 }
 h1{
 	font-size: 5em;
@@ -11,15 +12,18 @@ h1{
 h2{
 	font-size: 4em;
 }
-.pheader{
+.pheader{/*párrafo del header*/
 	font-size: 2em;
 }
 .txbco{
 	color: white;
 }
-.alto{
-	height: 10em;
+.altocaja{/*fue la única manera que hallé para darle un alto a cada caja (probé ponerle altura a la row y también a cada div*/
+	height: 9em;
+	margin: 0;
 }
+
+/*cada una de las cajas de paleta de color*/
 #back1{
 	background-color: #69D2E7;
 }
@@ -35,14 +39,16 @@ h2{
 #back5{
 	background-color: #FA6900;
 }
+
+
 hr{
-	border-top: solid gray;
-	border-bottom: solid black;
-	width: 25%;
+	border-style: groove;
+	width: 20%
 }
 
 
 
+/*utilities*/
 .pd-5{
 	padding: 5%;
 }
