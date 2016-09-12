@@ -49,6 +49,14 @@ hr{
 	background-color: #E77F1F;
 	height: .5em;
 }
+
+.recuadro{
+	border: .5em solid green;
+}
+.marco{
+	background-color: green;
+}
+
 #hr1{
 	width: 95%;
 }
