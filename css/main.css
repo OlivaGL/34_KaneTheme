@@ -6,6 +6,7 @@
 .backpaisaje{
 	background-image: url(../img/carousel-bg.jpg);
 	height: auto;
+	background-repeat: no-repeat;
 }
 .backgris{
 	background-color: #2D3E50;
@@ -87,6 +88,9 @@ hr{
 }
 .txbco{
 	color: white;
+}
+.redesch{
+	font-size: 2em;
 }
 
 /*cada una de las cajas de paleta de color*/
