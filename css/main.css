@@ -1,3 +1,4 @@
+/*FONDOS*/
 .backverde{
 	background-color: #26AD5F;
 	height: auto;
@@ -6,6 +7,13 @@
 	background-image: url(../img/carousel-bg.jpg);
 	height: auto;
 }
+.backgris{
+	background-color: #2D3E50;
+	height: auto;
+}
+
+
+
 h1{
 	font-size: 5em;
 }
@@ -15,12 +23,70 @@ h2{
 .pheader{/*párrafo del header*/
 	font-size: 2em;
 }
-.txbco{
-	color: white;
-}
 .altocaja{/*fue la única manera que hallé para darle un alto a cada caja (probé ponerle altura a la row y también a cada div*/
 	height: 9em;
 	margin: 0;
+}
+hr{
+	border-style: groove;
+	width: 20%
+}
+.agencia{
+	width: 80%;
+	height: 80%;
+}
+.barra{
+	background-color: white;
+	width: 100%;
+	height: 1em;
+	padding: .3em;
+}
+.barra2{
+	background-color: #E77F1F;
+	height: .5em;
+}
+#hr1{
+	width: 95%;
+}
+#hr2{
+	width: 90%;
+}
+#hr3{
+	width: 60%;
+}
+#hr4{
+	width: 70%;
+}
+#hr5{
+	width: 80%;
+}
+
+
+
+/*utilities*/
+.pd-5{
+	padding: 5%;
+}
+.pd-2{
+	padding: 2%;
+}
+.pd-left{
+	padding-left: 9%;
+}
+.pd-right{
+	padding-right: 9%;
+}
+.m-bot-5{
+	margin-bottom: 5%;
+}
+.m-bot-1{
+	margin-bottom: 1%;
+}
+.m-top-5{
+	margin-top: 5%;
+}
+.txbco{
+	color: white;
 }
 
 /*cada una de las cajas de paleta de color*/
@@ -100,32 +166,3 @@ h2{
 	background-color: #DB403B;
 }
 
-
-
-
-hr{
-	border-style: groove;
-	width: 20%
-}
-
-
-
-/*utilities*/
-.pd-5{
-	padding: 5%;
-}
-.pd-2{
-	padding: 2%;
-}
-.pd-left{
-	padding-left: 9%;
-}
-.pd-right{
-	padding-right: 9%;
-}
-.m-bot-5{
-	margin-bottom: 5%;
-}
-.m-top-5{
-	margin-top: 5%;
-}
